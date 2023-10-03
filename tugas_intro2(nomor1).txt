@@ -1,0 +1,74 @@
+1. push(): 
+Method push() digunakan untuk menambahkan satu atau lebih elemen ke akhir array dan mengembalikan panjang array baru.
+Contoh:
+const fruits = ['apple', 'banana'];
+const newLength = fruits.push('orange');
+console.log(fruits); // ['apple', 'banana', 'orange']
+console.log(newLength); // 3
+
+2. pop(): 
+Method pop() digunakan untuk menghapus elemen terakhir dari array dan mengembalikan elemen tersebut.
+Contoh:
+const fruits = ['apple', 'banana', 'orange'];
+const removedFruit = fruits.pop();
+console.log(fruits); // ['apple', 'banana']
+console.log(removedFruit); // 'orange'
+
+3. shift(): 
+Method shift() digunakan untuk menghapus elemen pertama dari array dan menggeser elemen-elemen lainnya ke atas.
+Contoh:
+const fruits = ['apple', 'banana', 'orange'];
+const removedFruit = fruits.shift();
+console.log(fruits); // ['banana', 'orange']
+console.log(removedFruit); // 'apple'
+
+4. unshift(): 
+Method unshift() digunakan untuk menambahkan satu atau lebih elemen ke awal array dan menggeser elemen-elemen lainnya ke bawah.
+Contoh:
+const fruits = ['banana', 'orange'];
+const newLength = fruits.unshift('apple');
+console.log(fruits); // ['apple', 'banana', 'orange']
+console.log(newLength); // 3
+
+5. indexOf(): 
+Method indexOf() digunakan untuk mencari indeks pertama dari elemen yang cocok dalam array. Jika elemen tidak ditemukan, mengembalikan -1.
+Contoh:
+const fruits = ['apple', 'banana', 'orange'];
+const index = fruits.indexOf('banana');
+console.log(index); // 1
+
+6. includes(): 
+Method includes() digunakan untuk memeriksa apakah array mengandung elemen tertentu. Mengembalikan true jika ditemukan, false jika tidak.
+Contoh:
+const fruits = ['apple', 'banana', 'orange'];
+const isBananaIncluded = fruits.includes('banana');
+console.log(isBananaIncluded); // true
+
+7.concat(): 
+Method concat() digunakan untuk menggabungkan dua atau lebih array dan mengembalikan array baru.
+Contoh:
+const arr1 = [1, 2];
+const arr2 = [3, 4];
+const combinedArr = arr1.concat(arr2);
+console.log(combinedArr); // [1, 2, 3, 4]
+
+8. find(): 
+Method find() digunakan untuk mencari elemen pertama dalam array yang memenuhi kondisi tertentu yang diuji dengan fungsi callback.
+Contoh:
+const numbers = [10, 20, 30, 40];
+const found = numbers.find(num => num > 25);
+console.log(found); // 30
+
+9. filter(): M
+ethod filter() digunakan untuk membuat array baru dengan semua elemen yang memenuhi kondisi tertentu yang diuji dengan fungsi callback.
+Contoh:
+const numbers = [10, 20, 30, 40];
+const filteredNumbers = numbers.filter(num => num > 25);
+console.log(filteredNumbers); // [30, 40]
+
+10.reduce(): 
+Method reduce() digunakan untuk mengurangi elemen-elemen dalam array menjadi satu nilai tunggal menggunakan fungsi akumulator.
+Contoh:
+const numbers = [1, 2, 3, 4];
+const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+console.log(sum); // 10
