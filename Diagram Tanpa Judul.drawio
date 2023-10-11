@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T10:03:10.834Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="8fyPkV0f9BfQIpKeHK7q" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T07:27:33.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="jf902MagsYcpU4iDCqCB" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3561" dy="1758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3370" dy="1654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -410,11 +410,37 @@
             <mxPoint x="-1870" y="-150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BREMGfWEiEd5kYXA4PxT-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="2UY-sJIpxK0MTHKXZ6Qm-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.451;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6m6GTqiiXeicWxR2e0hD-80" target="2UY-sJIpxK0MTHKXZ6Qm-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-880" y="110" as="sourcePoint" />
-            <mxPoint x="-830" y="60" as="targetPoint" />
+            <mxPoint x="-965" y="510" as="sourcePoint" />
+            <mxPoint x="-200" y="-390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-960" y="560" />
+              <mxPoint x="-960" y="600" />
+              <mxPoint x="-200" y="600" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2UY-sJIpxK0MTHKXZ6Qm-1" value="Homepage" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-260" y="-460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2UY-sJIpxK0MTHKXZ6Qm-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2UY-sJIpxK0MTHKXZ6Qm-1" target="2UY-sJIpxK0MTHKXZ6Qm-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="-420" as="sourcePoint" />
+            <mxPoint x="-60" y="-430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2UY-sJIpxK0MTHKXZ6Qm-3" value="Display Navigation&lt;br&gt;Menu" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-70" y="-460" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2UY-sJIpxK0MTHKXZ6Qm-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2UY-sJIpxK0MTHKXZ6Qm-3" target="2UY-sJIpxK0MTHKXZ6Qm-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="-430" as="sourcePoint" />
+            <mxPoint x="130" y="-430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2UY-sJIpxK0MTHKXZ6Qm-5" value="User Click on of&lt;br&gt;the menu" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="-460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
